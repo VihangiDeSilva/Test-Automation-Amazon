@@ -1,0 +1,46 @@
+{
+  "name": "test-automation-webdriverio-typescript-cucumber",
+  "author": {
+    "name": "Vihangi Dharmawickrema",
+    "email": "vihangidesilva1997@gmail.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "7.22.10",
+    "@cucumber/message-streams": "4.0.1",
+    "@cucumber/messages": "22.0.0",
+    "@types/chai": "4.3.5",
+    "@types/node": "20.4.10",
+    "@typescript-eslint/eslint-plugin": "6.3.0",
+    "@typescript-eslint/parser": "6.3.0",
+    "@wdio/browser-runner": "8.14.3",
+    "@wdio/cli": "8.14.4",
+    "@wdio/cucumber-framework": "8.14.0",
+    "@wdio/globals": "8.14.3",
+    "@wdio/local-runner": "8.14.3",
+    "@wdio/selenium-standalone-service": "8.14.0",
+    "@wdio/spec-reporter": "8.14.0",
+    "@wdio/types": "8.14.0",
+    "chai": "4.3.7",
+    "cross-env": "7.0.3",
+    "dotenv": "16.3.1",
+    "es-abstract": "1.22.1",
+    "esbuild": "0.18.0",
+    "eslint": "8.0.1",
+    "eslint-plugin-import": "2.28.0",
+    "eslint-plugin-webdriverio": "1.0.1",
+    "geckodriver": "4.2.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.6",
+    "wdio-cucumberjs-json-reporter": "5.1.6",
+    "wdio-geckodriver-service": "5.0.2",
+    "webdriverio": "8.14.3"
+  },
+  "scripts": {
+    "wdio-development": "yarn cache clean && cross-env NODE_ENV=development wdio run ./wdio.conf.ts",
+    "wdio-qa": "yarn cache clean && cross-env NODE_ENV=qa wdio run ./wdio.conf.ts",
+    "wdio-production": "yarn cache clean && cross-env NODE_ENV=production wdio run ./wdio.conf.ts",
+    "lint": "npx eslint features/ --fix --ext .ts"
+  }
+}

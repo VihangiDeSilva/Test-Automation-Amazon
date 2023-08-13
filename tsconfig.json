@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "es2022",
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "expect-webdriverio",
+      "@wdio/cucumber-framework"
+    ],
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "features/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+
+//{
+//  "compilerOptions": {
+//    "moduleResolution": "node",
+//    "module": "ESNext",
+//    "types": [
+//      "node",
+//      "@wdio/globals/types",
+//      "expect-webdriverio",
+//      "@wdio/cucumber-framework",
+//      "@wdio/appium-service"
+//    ],
+//    "target": "es2022"
+//  }
+//}

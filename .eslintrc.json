@@ -1,0 +1,38 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "import",
+    "@typescript-eslint",
+    "webdriverio"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    // TypeScript and ESLint rules
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    // WebdriverIO rules
+    "webdriverio/no-browser-pause": "off",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 100,
+        "tabWidth": 4
+      }
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "import/newline-after-import": ["error", { "count": 1 }]
+  }
+}
