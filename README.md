@@ -1,8 +1,8 @@
 # Test-Automation-Amazon
-This is a test automation for official Amazon site.
+This is a test automation for the official Amazon site.
 Link: https://www.amazon.com/
 
-I've created a automation framework that simplifies the process of adding products to a cart. I've used the webdriverio automation framework along with TypeScript as the programming language to ensure efficient implementation. Additionally, I've integrated cucumber, a testing framework that promotes Behavior-Driven Development principles, to ensure thorough testing and collaboration. 
+I've created an automation framework that simplifies the process of adding products to a cart. I've used the webdriverio automation framework along with TypeScript as the programming language to ensure efficient implementation. Additionally, I've integrated cucumber, a testing framework that promotes Behavior-Driven Development principles, to ensure thorough testing and collaboration. 
 
 
 ## Challenges/Issues Faced in the Project:
@@ -14,10 +14,10 @@ In order to efficiently target elements, I adopted a combination of CSS selector
 The project leveraged object-oriented programming principles, specifically Composition and Delegation. These concepts were employed to establish relationships between classes, facilitating code reuse and promoting modular design.
 
 - **Configuration Management:**
-A specific requirement in the project was to manage configuration data, including the Application URL, using property files. To fulfill this, I created three separate files for each environment (Development, QA, Production) to store and load the respective base URLs. The .dotenv plugin was implemented to streamline the URL loading process.
+A specific requirement in the project was to manage configuration data, including the Application URL, using property files. To fulfill this, I created three separate files for each environment (Development, QA, and Production) to store and load the respective base URLs. The .dotenv plugin was implemented to streamline the URL loading process.
 
 - **Learning Curve and Timeline:**
-As a newcomer to automation, the project presented challenges due to its complexity and the timeline. Navigating through the project's intricacies within the given timeframe required dedicated effort. To overcome these challenges, I sought guidance from various learning resources, contributing to the completion of the project.
+As a newcomer to automation, the project presented challenges due to its complexity and timeline. Navigating through the project's intricacies within the given timeframe required dedicated effort. To overcome these challenges, I sought guidance from various learning resources, contributing to the completion of the project.
 
 
 ## Requirements:
@@ -36,6 +36,12 @@ As a newcomer to automation, the project presented challenges due to its complex
 
 ## Test-Summary-Report
 
-Please utilize the provided link to access the comprehensive test summary report.
+Please utilize the provided link to access the Screencast [Click here](https://drive.google.com/file/d/14AW-aiYBA7ttKfaoZsh3oWE_An4m3J29/view?pli=1).
 
-Link: https://drive.google.com/file/d/15iZcCFk2YYJQb53nKBHKDliySpgNzrnu/view?usp=sharing
+![Test Summary Report-1](https://github.com/VihangiDeSilva/Test-Automation-Amazon/assets/41775025/2c0b2cf5-560d-43e9-924f-0c9877ba523e)
+
+![Test Summary Report-2](https://github.com/VihangiDeSilva/Test-Automation-Amazon/assets/41775025/6cde59d0-7873-411a-bea2-e195df6af2c2)
+
+![Test Summary Report-3](https://github.com/VihangiDeSilva/Test-Automation-Amazon/assets/41775025/42d5436d-99f0-48e5-acff-a89b68ec34ea)
+
+![Test Summary Report-4](https://github.com/VihangiDeSilva/Test-Automation-Amazon/assets/41775025/e3170be4-0ac9-491f-a5a5-737bd6d7f467)
